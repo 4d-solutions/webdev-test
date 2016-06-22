@@ -1,0 +1,42 @@
+{
+  "endpoints": [
+    {
+      "1": {
+        "endpoint": "www.google.com",
+        "pollinterval_ms": 5000,
+        "threshold_ms": 1000,
+        "alert": "email"
+      },
+      "2": {
+        "endpoint": "www.dakrl668.com",
+        "pollinterval_ms": 5000,
+        "threshold_ms": 2000,
+        "alert": "slack"
+      },
+      "3": {
+        "endpoint": "www.geocities.com",
+        "pollinterval_ms": 5000,
+        "threshold_ms": 3000,
+        "alert": "console"
+      },
+      "4": {
+        "endpoint": "www.hotmail.com",
+        "pollinterval_ms": 5000,
+        "threshold_ms": 2,
+        "alert": "requestbin"
+      },
+      "5": {
+        "endpoint": "www.badgerbadgerbadger.com",
+        "pollinterval_ms": 5000,
+        "threshold_ms": 3000,
+        "alert": "console"
+      },
+      "6": {
+        "endpoint": "www.nbc.com",
+        "pollinterval_ms": 5000,
+        "threshold_ms": -1,
+        "alert": "requestbin"
+      }
+    }
+  ]
+}
